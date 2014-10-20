@@ -5,11 +5,11 @@ Gem::Specification.new do |s|
   s.name        = "faker"
   s.version     = Faker::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["Benjamin Curtis"]
-  s.email       = ["benjamin.curtis@gmail.com"]
-  s.homepage    = "https://github.com/stympy/faker"
+  s.authors     = ["Navaneethakrishnan"]
+  s.email       = ["r.navaneeth@gmail.com"]
+  s.homepage    = "https://github.com/rnavaneeth/faker"
   s.summary     = %q{Easily generate fake data}
-  s.description = %q{Faker, a port of Data::Faker from Perl, is used to easily generate fake data: names, addresses, phone numbers, etc.}
+  s.description = %q{Faker, a fork from Faker gem, is used to easily generate fake data: names, addresses, phone numbers, etc.}
   s.license     = 'MIT'
 
   s.rubyforge_project = "faker"
