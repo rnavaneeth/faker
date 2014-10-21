@@ -178,6 +178,7 @@ require 'faker/number'
 require 'faker/hacker'
 require 'faker/app'
 require 'faker/meeting'
+require 'faker/customer'
 
 require 'extensions/array'
 require 'extensions/symbol'

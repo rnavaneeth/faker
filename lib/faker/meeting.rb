@@ -5,20 +5,20 @@ module Faker
 
     	class << self
     	  def company
-    	    Faker::Company.parse(fetch('company.name'))
+    	    fetch('company.name')
     	  end
 	
-    	  def meeting_type
+    	  def meeting_type(*types)
     	  	types = MEETING_TYPES if types.empty?
     	  	types.sample.to_s
     	  end
 
     	  def custom_text_fields
-    	  	Faker::Lorem.parse(fetch('lorem.words'))
+    	  	fetch('lorem.words')
     	  end
 
     	  def custom_textarea_fields
-    	  	Faker::Lorem.parse(fetch('lorem.sentences'))
+    	  	fetch('lorem.sentences')
     	  end
     	end
 	end
