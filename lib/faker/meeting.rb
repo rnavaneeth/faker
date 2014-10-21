@@ -5,7 +5,7 @@ module Faker
 
     	class << self
     	  def company
-    	    ::Company.parse(fetch('company.name'))
+    	    Faker::Company.parse(fetch('company.name'))
     	  end
 	
     	  def meeting_type
@@ -14,11 +14,11 @@ module Faker
     	  end
 
     	  def custom_text_fields
-    	  	::Lorem.parse(fetch('lorem.words'))
+    	  	Faker::Lorem.parse(fetch('lorem.words'))
     	  end
 
     	  def custom_textarea_fields
-    	  	::Lorem.parse(fetch('lorem.sentences'))
+    	  	Faker::Lorem.parse(fetch('lorem.sentences'))
     	  end
     	end
 	end
