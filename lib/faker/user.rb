@@ -6,34 +6,34 @@ module Faker
 
     	class << self
     	  def first_name
-    	    ::Name.parse(fetch('name.first_name'))
+    	    Name.first_name
     	  end
 	
     	  def last_name
-    	  	::Name.parse(fetch('name.last_name'))
+    	  	Name.last_name
     	  end
 
     	  def company
-    	  	::Company.parse(fetch('company.name'))
+    	  	Company.name
     	  end
 
-          def job_title
-            ::Name.parse(fetch('name.title'))
-          end
+        def job_title
+          Name.title
+        end
 
-          def email
-            fetch('internet.safe_email')
-          end
+        def email
+          Internet.safe_email
+        end
 
-          def user_role
-            roles = USER_ROLES if roles.empty?
-            roles.sample.to_s
-          end
+        def user_role(*roles)
+          roles = USER_ROLES if roles.empty?
+          roles.sample.to_s
+        end
 
-          def region
-            regions = REGION if regions.empty?
-            regions.sample.to_s
-          end
+        def region(*regions)
+          regions = REGION if regions.empty?
+          regions.sample.to_s
+        end
     	end
 	end
 end

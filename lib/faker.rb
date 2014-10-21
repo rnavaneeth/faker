@@ -8,12 +8,8 @@ end
 
 require 'i18n'
 require 'set' # Fixes a bug in i18n 0.6.11
-
-if I18n.respond_to?(:enforce_available_locales=)
-  I18n.enforce_available_locales = true
-end
+defined? I18n.enforce_available_locales = true
 I18n.load_path += Dir[File.join(mydir, 'locales', '*.yml')]
-
 
 module Faker
   class Config
@@ -179,6 +175,7 @@ require 'faker/hacker'
 require 'faker/app'
 require 'faker/meeting'
 require 'faker/customer'
+require 'faker/user'
 
 require 'extensions/array'
 require 'extensions/symbol'

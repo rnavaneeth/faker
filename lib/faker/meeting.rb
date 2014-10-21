@@ -5,7 +5,7 @@ module Faker
 
     	class << self
     	  def company
-    	    fetch('company.name')
+	       Company.name
     	  end
 	
     	  def meeting_type(*types)
@@ -14,11 +14,11 @@ module Faker
     	  end
 
     	  def custom_text_fields
-    	  	fetch('lorem.words')
+    	  	Lorem.words
     	  end
 
     	  def custom_textarea_fields
-    	  	fetch('lorem.sentences')
+    	  	Lorem.sentences
     	  end
     	end
 	end
