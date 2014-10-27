@@ -24,7 +24,7 @@ module Faker
           end
   
           def mobile_number
-            Phone.cell_phone
+            PhoneNumber.cell_phone
           end
   
           def country

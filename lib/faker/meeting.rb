@@ -14,11 +14,11 @@ module Faker
     	  end
 
     	  def custom_text_fields
-    	  	Lorem.words
+    	  	Lorem.words.join(' ')
     	  end
 
     	  def custom_textarea_fields
-    	  	Lorem.sentences
+    	  	Lorem.sentences.join(' ')
     	  end
     	end
 	end

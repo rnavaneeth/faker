@@ -29,4 +29,8 @@ class TestFakerCustomer < Test::Unit::TestCase
   def test_country
     assert @tester.country.match(/[A-Z][a-z]+\.?/)
   end
+
+  def phone_number
+    assert @tester.phone_number.match(/d+/)
+  end
 end
