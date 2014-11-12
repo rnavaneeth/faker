@@ -5,12 +5,12 @@ module DataFactory
     def load
       app_path = File.dirname(File.expand_path(__FILE__))
       @config = {}
-      unless File.exists?(File.join(app_path,'preset_configs/',"#{$config_file}"))
+      unless File.exists?(File.join(app_path,'*/preset_configs/',"#{$config_file}"))
         puts("[DataFactory] Warning - Could not find #{conf_file} in preset_configs folder. Either place this or initialize")
         return @config
       end
       begin
-        raw_config = File.read(File.join(app_path,'preset_configs/',"#{$config_file}"))
+        raw_config = File.read(File.join(app_path,'*/preset_configs/',"#{$config_file}"))
         @config = YAML.load(raw_config)
       rescue
         puts("[DataFactory] Error - Could not load/parse #{conf_file} file")
