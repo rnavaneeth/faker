@@ -179,3 +179,5 @@ require 'faker/user'
 
 require 'extensions/array'
 require 'extensions/symbol'
+require 'extensions/configuration'
+require 'extensions/data_factory'
