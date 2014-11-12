@@ -5,7 +5,7 @@ module DataFactory
     def load
       app_path = File.dirname(File.expand_path(__FILE__))
       @config = {}
-      puts "----------I am here: #{Dir.glob(app_path + '*/preset_configs/' + "#{$config_file}"}"
+      puts "----------I am here:" + Dir.glob(app_path + '*/preset_configs/' + "#{$config_file}"
       if Dir.glob(app_path + '*/preset_configs/' + "#{$config_file}").empty?
         puts("[DataFactory] Warning - Could not find #{conf_file} in preset_configs folder. Either place this or initialize")
         return @config
