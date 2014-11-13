@@ -3,15 +3,15 @@ module DataFactory
  
   module ConfigurationBase
     def load
-      app_path = File.dirname(File.expand_path(__FILE__))
+      app_path = ENV["APP_PATH"]
+      conf_file = "#{ENV['COMPANY_NAME']}_#{ENV['EVENT_NAME']}.yml"
       @config = {}
-      puts "----------I am here:" + Dir.glob(app_path + '*/preset_configs/' + "#{$config_file}"
-      if Dir.glob(app_path + '*/preset_configs/' + "#{$config_file}").empty?
+      unless File.exists?(File.join(app_path,'../../preset_configs/',"#{conf_file}"))
         puts("[DataFactory] Warning - Could not find #{conf_file} in preset_configs folder. Either place this or initialize")
         return @config
       end
       begin
-        raw_config = File.read(Dir.glob(app_path + '*/preset_configs/' + "#{$config_file}").first)
+        raw_config = File.read(File.join(app_path,'../../preset_configs/',"#{conf_file}"))
         @config = YAML.load(raw_config)
       rescue
         puts("[DataFactory] Error - Could not load/parse #{conf_file} file")
@@ -54,8 +54,8 @@ module DataFactory
 
     private
 
-    def self.conf_file
-      @conf_file ||= 'symantec_config.yml'
-    end
+     def self.conf_file
+       @conf_file ||= 'symantec_config.yml'
+     end
   end
 end
