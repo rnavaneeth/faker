@@ -1,10 +1,8 @@
 require 'yaml'
 module DataFactory
- 
   module ConfigurationBase
     def load
       app_path = ENV["APP_PATH"]
-      conf_file = "#{ENV['COMPANY_NAME']}_#{ENV['EVENT_NAME']}.yml"
       @config = {}
       unless File.exists?(File.join(app_path,'../../preset_configs/',"#{conf_file}"))
         puts("[DataFactory] Warning - Could not find #{conf_file} in preset_configs folder. Either place this or initialize")
@@ -55,7 +53,7 @@ module DataFactory
     private
 
      def self.conf_file
-       @conf_file ||= 'symantec_config.yml'
+       conf_file = "#{ENV['EVENT'].gsub(':','_')}.yml"
      end
   end
 end
