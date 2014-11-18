@@ -2,12 +2,10 @@ require 'yaml'
 require 'faker'
 require_relative 'configuration'
 module DataFactory
-#attr_accessor :custom_fields
-$config_file = ENV['CONFIG_FILE'] || "symantec_config.yml"
 	config = Configuration::load
 	Custom_fields = config['CustomField']
 	Event_Start_Date = config['Account']['start_date']
-	puts "[DataFactory] Config file #{$config_file} found. Load successful"
+	puts "[DataFactory] Load successful"
 	
 	def self.get_custom_fields
 		Custom_fields.select{|x| x['type']=='MeetingCustomField'}
@@ -76,9 +74,9 @@ $config_file = ENV['CONFIG_FILE'] || "symantec_config.yml"
 		end
 		puts "Full Hash: #{meeting_info}"
 		meeting_info
-end
+	end
 
-def self.default_customer_information
+	def self.default_customer_information
 		customer_fields = get_customer_custom_fields
 		customer_info =
 		{ 	'Customer First Name' => Faker::Customer.first_name,
@@ -104,5 +102,26 @@ def self.default_customer_information
 			'User Role Sub type' => 'engineer',
 		}
 		user_info
+	end
+
+	def self.default_quick_meeting_information
+		quick_meeting_fields = get_quick_meeting_custom_fields
+		quick_meeting_info = 
+		{   'Meeting Date' => "#{Event_Start_Date.to_s}",
+			'Meeting Time' => "01:00 PM",
+			'Preferred Duration' => '30 mins',
+			'Company' => Faker::User.company
+		}
+
+		quick_meeting_fields.select{ |field| field['data_type']=='Text' }.each do |field|
+			quick_meeting_info.merge!(field['display_name'] => Faker::Meeting.custom_textarea_fields)
+		end
+		quick_meeting_fields.select{ |field| field['data_type']=='String'}.each do |field|
+			quick_meeting_info.merge!(field['display_name'] => Faker::Meeting.custom_text_fields)
+		end
+		quick_meeting_fields.select{ |field| field['data_type']=='List'}.each do |field|
+			quick_meeting_info.merge!(field['display_name'] => field['options'][:value_list][0])
+		end
+		quick_meeting_info
 	end
 end

@@ -16,7 +16,8 @@ Gem::Specification.new do |s|
 
   s.add_dependency('i18n', '~> 0.5')
 
-  s.files         = `git ls-files -- lib/*`.split("\n") + %w(History.txt License.txt README.md)
+  #s.files         = `git ls-files -- lib/*`.split("\n") + %w(History.txt License.txt README.md)
+  s.files         = Dir["{lib}/**/*.rb", "preset_configs/event_sample.yml","bin/*", "LICENSE", "*.md"]
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]

@@ -1,0 +1,1190 @@
+---
+Account:
+  support_mail: edgar@jifflehq.com
+  event_name: sample event
+  location: everywhere
+  start_date: 2014-12-12
+  end_date: 2014-12-12
+  banner: sample event 2014 | dec 12-12, 2014 | Las Vegas, NV
+  time_zone: Pacific Time (US & Canada)
+  executive_label: Executive
+  sender_name: sample event 2014
+  sender_email: sample event 2014
+  sender_prefix: sample event 2014
+  event_name_suffix: ''
+  time_zone_description: Pacific Time
+InitialAvailability:
+- event_date: 2014-05-04
+  raw_availability: '0'
+  type: MeetingInitialAvailability
+  created_at: 
+  updated_at: 
+- event_date: 2014-05-05
+  raw_availability: '1237940039285380274630688768'
+  type: MeetingInitialAvailability
+  created_at: 
+  updated_at: 
+- event_date: 2014-05-06
+  raw_availability: '1237940039285380274630688768'
+  type: MeetingInitialAvailability
+  created_at: 
+  updated_at: 
+- event_date: 2014-05-07
+  raw_availability: '1237940039285380274630688768'
+  type: MeetingInitialAvailability
+  created_at: 
+  updated_at: 
+- event_date: 2014-05-08
+  raw_availability: '1237940039285380274630688768'
+  type: MeetingInitialAvailability
+  created_at: 
+  updated_at: 
+- event_date: 2014-05-04
+  raw_availability: '1237940039285380274630688768'
+  type: UserInitialAvailability
+  created_at: 
+  updated_at: 
+- event_date: 2014-05-05
+  raw_availability: '1237940039285380274630688768'
+  type: UserInitialAvailability
+  created_at: 
+  updated_at: 
+- event_date: 2014-05-06
+  raw_availability: '1237940039285380274630688768'
+  type: UserInitialAvailability
+  created_at: 
+  updated_at: 
+- event_date: 2014-05-07
+  raw_availability: '1237940039285380274630688768'
+  type: UserInitialAvailability
+  created_at: 
+  updated_at: 
+- event_date: 2014-05-08
+  raw_availability: '1237940039285380274630688768'
+  type: UserInitialAvailability
+  created_at: 
+  updated_at: 
+- event_date: 2014-05-05
+  raw_availability: '1208925819614628906270720'
+  type: RoomInitialAvailability
+  created_at: 
+  updated_at: 
+- event_date: 2014-05-06
+  raw_availability: '1208925819614628906270720'
+  type: RoomInitialAvailability
+  created_at: 
+  updated_at: 
+- event_date: 2014-05-07
+  raw_availability: '1208925819614628906270720'
+  type: RoomInitialAvailability
+  created_at: 
+  updated_at: 
+- event_date: 2014-05-08
+  raw_availability: '1208925819614628906270720'
+  type: RoomInitialAvailability
+  created_at: 
+  updated_at: 
+- event_date: 2014-05-04
+  raw_availability: '0'
+  type: RoomInitialAvailability
+  created_at: 
+  updated_at: 
+- event_date: 2014-06-09
+  raw_availability: '1180591620713116336128'
+  type: MeetingInitialAvailability
+  created_at: 
+  updated_at: 
+- event_date: 2014-06-10
+  raw_availability: '1180591620713116336128'
+  type: MeetingInitialAvailability
+  created_at: 
+  updated_at: 
+- event_date: 2014-06-11
+  raw_availability: '1180591620713116336128'
+  type: MeetingInitialAvailability
+  created_at: 
+  updated_at: 
+- event_date: 2014-06-12
+  raw_availability: '1180591620713116336128'
+  type: MeetingInitialAvailability
+  created_at: 
+  updated_at: 
+- event_date: 2014-06-13
+  raw_availability: '1180591620713116336128'
+  type: MeetingInitialAvailability
+  created_at: 
+  updated_at: 
+- event_date: 2014-06-09
+  raw_availability: '1180591620713116336128'
+  type: UserInitialAvailability
+  created_at: 
+  updated_at: 
+- event_date: 2014-06-10
+  raw_availability: '1180591620713116336128'
+  type: UserInitialAvailability
+  created_at: 
+  updated_at: 
+- event_date: 2014-06-11
+  raw_availability: '1180591620713116336128'
+  type: UserInitialAvailability
+  created_at: 
+  updated_at: 
+- event_date: 2014-06-12
+  raw_availability: '1180591620713116336128'
+  type: UserInitialAvailability
+  created_at: 
+  updated_at: 
+- event_date: 2014-06-13
+  raw_availability: '1180591620713116336128'
+  type: UserInitialAvailability
+  created_at: 
+  updated_at: 
+- event_date: 2014-06-09
+  raw_availability: '1180591620713116336128'
+  type: RoomInitialAvailability
+  created_at: 
+  updated_at: 
+- event_date: 2014-06-10
+  raw_availability: '1180591620713116336128'
+  type: RoomInitialAvailability
+  created_at: 
+  updated_at: 
+- event_date: 2014-06-11
+  raw_availability: '1180591620713116336128'
+  type: RoomInitialAvailability
+  created_at: 
+  updated_at: 
+- event_date: 2014-06-12
+  raw_availability: '1180591620713116336128'
+  type: RoomInitialAvailability
+  created_at: 
+  updated_at: 
+- event_date: 2014-06-13
+  raw_availability: '1180591620713116336128'
+  type: RoomInitialAvailability
+  created_at: 
+  updated_at: 
+- event_date: 2014-12-09
+  raw_availability: '268173312'
+  type: MeetingInitialAvailability
+  created_at: 
+  updated_at: 
+- event_date: 2014-12-09
+  raw_availability: '268173312'
+  type: UserInitialAvailability
+  created_at: 
+  updated_at: 
+- event_date: 2014-12-09
+  raw_availability: '268173312'
+  type: RoomInitialAvailability
+  created_at: 
+  updated_at: 
+- event_date: 2014-12-10
+  raw_availability: '0'
+  type: UserInitialAvailability
+  created_at: 
+  updated_at: 
+- event_date: 2014-12-10
+  raw_availability: '0'
+  type: RoomInitialAvailability
+  created_at: 
+  updated_at: 
+- event_date: 2014-12-10
+  raw_availability: '0'
+  type: MeetingInitialAvailability
+  created_at: 
+  updated_at: 
+- event_date: 2014-12-11
+  raw_availability: '0'
+  type: UserInitialAvailability
+  created_at: 
+  updated_at: 
+- event_date: 2014-12-11
+  raw_availability: '0'
+  type: RoomInitialAvailability
+  created_at: 
+  updated_at: 
+- event_date: 2014-12-11
+  raw_availability: '0'
+  type: MeetingInitialAvailability
+  created_at: 
+  updated_at: 
+- event_date: 2014-12-12
+  raw_availability: '0'
+  type: UserInitialAvailability
+  created_at: 
+  updated_at: 
+- event_date: 2014-12-12
+  raw_availability: '0'
+  type: RoomInitialAvailability
+  created_at: 
+  updated_at: 
+- event_date: 2014-12-12
+  raw_availability: '0'
+  type: MeetingInitialAvailability
+  created_at: 
+  updated_at: 
+- event_date: 2014-12-13
+  raw_availability: '0'
+  type: UserInitialAvailability
+  created_at: 
+  updated_at: 
+- event_date: 2014-12-13
+  raw_availability: '0'
+  type: RoomInitialAvailability
+  created_at: 
+  updated_at: 
+- event_date: 2014-12-13
+  raw_availability: '0'
+  type: MeetingInitialAvailability
+  created_at: 
+  updated_at: 
+Setting:
+- name: max_meeting_duration
+  value: '120'
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: min_meeting_duration
+  value: '15'
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: limit_executive_invites
+  value: '0'
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: user_to_pick_exec_first_before_meeting_request
+  value: 'yes'
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: force_select_topic_before_exec
+  value: 'no'
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: enable_briefing_doc
+  value: 'yes'
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: attach_briefing_doc_label
+  value: ''
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: briefing_doc_help
+  value: ''
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: offsite_meetings
+  value: 'yes'
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: offsite_meetings_label
+  value: Offsite - Enter an exact location for your meeting
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: map_executive_topic
+  value: 'no'
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: map_executive_topic_field
+  value: type
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: map_executive_topic_mandatory
+  value: 'yes'
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: fifteen_minute_break
+  value: 'yes'
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: optional_executive_invite
+  value: 'yes'
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: hide_executive_invite
+  value: 'no'
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: hide_partner_invite
+  value: 'yes'
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: hide_staff_invite
+  value: 'no'
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: requestors_are_partners
+  value: 'no'
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: limit_meetings_partner_request
+  value: 
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: optional_partner_invite
+  value: 'yes'
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: meeting_lead_endorsement
+  value: 'yes'
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: auto_accept
+  value: 'yes'
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: copy_ml_on_meeting_request
+  value: 'no'
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: do_not_send_meeting_request_to_exec_ea
+  value: 'no'
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: do_not_send_meeting_changetime_update_to_exec_ea
+  value: 'yes'
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: do_not_send_meeting_approval_to_exec_ea
+  value: 'no'
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: do_not_send_meeting_cancelled_to_exec_ea
+  value: 'no'
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: ml_email_on_meeting_request
+  value: ''
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: requestor_outlook_link
+  value: 'no'
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: send_outlook_to_all_attendees
+  value: 'yes'
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: direct_calendar_invite
+  value: 'yes'
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: send_outlook_to_partners
+  value: 'yes'
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: remove_attendee_information_in_calendar
+  value: 'no'
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: show_calendar_download_status
+  value: 'yes'
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: requestor_outlook_exclude_external_attendees
+  value: 'no'
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: requestor_outlook_exclude_internal_attendees
+  value: 'no'
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: lead_outlook_exclude_external_attendees
+  value: 'no'
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: lead_outlook_exclude_internal_attendees
+  value: 'no'
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: allowed_email_domains
+  value: ''
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: no_direct_registration
+  value: 'no'
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: alert_executive_selected_email
+  value: ''
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: alert_executive_selected_message
+  value: ''
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: allow_requestor_select_available_execs
+  value: 'no'
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: do_not_allow_to_select_other_requestors
+  value: 'no'
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: do_not_allow_requester_to_add_new_customer
+  value: 'no'
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: do_not_allow_requester_to_add_new_staff
+  value: 'no'
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: meeting_requestor_must_attend_meeting
+  value: 'no'
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: meeting_requestor_only_see_own_partners
+  value: 'no'
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: hide_executive_contacts_download_for_requestor
+  value: 'no'
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: restrict_max_accepts_per_timeslot
+  value: '20'
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: apply_room_availability_logic
+  value: 'no'
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: do_not_cancel_when_one_exec_declines
+  value: 'yes'
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: enable_meeting_analytics
+  value: 'yes'
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: enable_partner_survey
+  value: 'no'
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: partner_survey_incomplete_custom_message
+  value: ''
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: date_format
+  value: '%a, %B %d, %Y'
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: time_format
+  value: ''
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: executive_label_downcase
+  value: ''
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: welcome_text
+  value: ''
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: password_additional_help_text
+  value: ''
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: outlook_location
+  value: ''
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: outlook_additional_comments
+  value: Outlook comments
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: email_verification_additional_note
+  value: ''
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: request_additional_note
+  value: ''
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: approved_additional_note
+  value: It is the account manager’s responsibility to meet their customer/partner
+    prior the confirmed meeting  to accompany them to the assigned meeting room to
+    make the introduction to the executive (even if the  account manager does not
+    participate in the meeting).
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: cancelled_additional_note
+  value: ''
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: change_time_additional_note
+  value: ''
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: transfer_additional_note
+  value: ''
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: custom_action_note
+  value: ''
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: last_summary_collected
+  value: Mon, March 24, 2014 06:56 PM (PDT)
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: pam_announcement
+  value: Vision Employee Early Bird Registration cut-off date is April 18th, 2014.
+    Visit the Vision Sharepoint site for further information.
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: exec_announcement
+  value: Vision Employee Early Bird Registration cut-off date is April 18th, 2014.
+    Visit the Vision Sharepoint site for further information.
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: meeting_request_message
+  value: Meeting requests will not be considered without complete details below and
+    a briefing document. To download a blank briefing document <a href="https://symdocs.symad.symantec.com/sites/Vision2014/Shared%20Documents/Vision%20Exec%20Briefing%20Document.docx">Click
+    Here</a>
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: restrict_pam_requests
+  value: 'yes'
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: restrict_pam_requests_end_date
+  value: '2014-06-26'
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: restrict_pam_actions
+  value: 'yes'
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: restrict_pam_actions_end_date
+  value: '2014-06-26'
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: restrict_exec_requests
+  value: 'yes'
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: restrict_exec_requests_end_date
+  value: '2014-06-26'
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: restrict_exec_actions
+  value: 'yes'
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: restrict_exec_actions_end_date
+  value: '2014-06-26'
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: restrict_final_approval
+  value: 'no'
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: restrict_final_approval_end_date
+  value: ''
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: enable_dinner
+  value: 'no'
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: dinner_label
+  value: Ancillary Events
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: default_sort_field
+  value: date
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: default_sort_order
+  value: asc
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: meeting_custom_field_filters
+  value: type
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: allow_exec_to_see_all_meetings
+  value: 'no'
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: hide_dinner_for_non_admins
+  value: 'no'
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: select_topic_to_view_executives
+  value: 'yes'
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: pam_label
+  value: AM
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: pam_label_full
+  value: Account Manager
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: partner_label
+  value: Customer
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: theater_label
+  value: Region
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: theater_required
+  value: 'yes'
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: theater_required_for
+  value: Meeting Manager
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: theaters
+  value: "US/Canada\r\nAPAC\r\nEMEA\r\nLatin America\r\nEurope"
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: theater_lead_label
+  value: Region Lead
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: disable_all_meeting_emails
+  value: 'no'
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: send_approved_mail_to_requestor
+  value: 'yes'
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: send_multi_part_ics_mail
+  value: 'yes'
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: outlook_additional_comments_for_partner
+  value: This is outlook
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: role_sub_types
+  value: |
+    ---
+    Executive:
+    - engineer
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: variable_room_capacity
+  value: 'yes'
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: fixed_room_capacity
+  value: 'no'
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: fixed_room_capacity_count
+  value: '0'
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: pam_can_see_room_availability
+  value: 'yes'
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: do_not_send_meeting_declined_mail_to_requester
+  value: 'no'
+  type: UserSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: external_meeting
+  value: 'yes'
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: external_meeting_topic
+  value: 'yes'
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: external_meeting_exec
+  value: 'yes'
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: external_meeting_header
+  value: ''
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: allow_available_executives_only
+  value: 'no'
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: external_meeting_secure_token
+  value: gtvDj2
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: multi_book_executive
+  value: 'no'
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+- name: max_admin_meeting_duration
+  value: '240'
+  type: SystemSetting
+  display_text: 
+  created_at: 
+  updated_at: 
+CustomField:
+- name: type
+  display_name: Meeting Type
+  data_type: List
+  display_order: 1
+  required: true
+  options:
+    :help_text: ''
+    :error_message: ''
+    :value_list:
+    - Customer
+    - Partner
+    - AR/PR
+    - Internal
+    - Other
+    :disabled_options: []
+    :default_value: ''
+  type: MeetingCustomField
+  created_at: 
+  updated_at: 
+- name: over
+  display_name: Give a Brief overview of the Company
+  data_type: Text
+  display_order: 3
+  required: true
+  options:
+    :help_text: High level overview on the company. Provide 3 - 5 bullet points.
+    :error_message: Enter Overview
+    :default_value: ''
+  type: MeetingCustomField
+  created_at: 
+  updated_at: 
+- name: rev
+  display_name: What is the annal revenue for Symantec from this Company?
+  data_type: Text
+  display_order: 2
+  required: false
+  options:
+    :help_text: ''
+    :error_message: ''
+    :default_value: ''
+  type: MeetingCustomField
+  created_at: 
+  updated_at: 
+- name: status
+  display_name: What is the Status of SYMC Relationship?
+  data_type: Text
+  display_order: 4
+  required: true
+  options:
+    :help_text: Comment on the relationship. Is the customer generally happy or are
+      there any areas of concern?
+    :error_message: ''
+    :default_value: ''
+  type: MeetingCustomField
+  created_at: 
+  updated_at: 
+- name: key
+  display_name: What are the Key Meeting Objectives? Please elaborate
+  data_type: Text
+  display_order: 5
+  required: true
+  options:
+    :help_text: List top 2 – 3 meeting objectives with goals and business opportunities
+      with customer.
+    :error_message: ''
+    :default_value: ''
+  type: MeetingCustomField
+  created_at: 
+  updated_at: 
+- name: avoid
+  display_name: Give a list of Topics to avoid in the course of meeting
+  data_type: Text
+  display_order: 6
+  required: true
+  options:
+    :help_text: List any sensitive topics to avoid or any known issues that may arise.
+    :error_message: ''
+    :default_value: ''
+  type: MeetingCustomField
+  created_at: 
+  updated_at: 
+- name: pre
+  display_name: What are the previous SMYC Executive visits?
+  data_type: Text
+  display_order: 7
+  required: true
+  options:
+    :help_text: List previous executive visits with dates as well as any current commitments.
+    :error_message: ''
+    :default_value: ''
+  type: MeetingCustomField
+  created_at: 
+  updated_at: 
+- name: comments
+  display_name: Comments/Additional Requests
+  data_type: Text
+  display_order: 12
+  required: false
+  options:
+    :help_text: ''
+    :error_message: ''
+    :default_value: ''
+  type: MeetingCustomField
+  created_at: 
+  updated_at: 
+- name: objectives_des
+  display_name: Did this meeting meet its desired objectives?
+  data_type: List
+  display_order: 1
+  required: true
+  options:
+    :help_text: ''
+    :error_message: ''
+    :value_list:
+    - 'Yes'
+    - 'No'
+    :disabled_options: []
+    :default_value: ''
+  type: MeetingSummaryCustomField
+  created_at: 
+  updated_at: 
+- name: what
+  display_name: What is the next step?
+  data_type: List
+  display_order: 2
+  required: true
+  options:
+    :help_text: ''
+    :error_message: ''
+    :value_list:
+    - Sign Contract
+    - Schedule Follow-up Call
+    - No Action
+    :disabled_options: []
+    :default_value: ''
+  type: MeetingSummaryCustomField
+  created_at: 
+  updated_at: 
+- name: poten
+  display_name: What is the potential revenue for this deal?
+  data_type: String
+  display_order: 3
+  required: true
+  options:
+    :help_text: ''
+    :error_message: ''
+    :css_class: currency_format
+    :default_value: ''
+  type: MeetingSummaryCustomField
+  created_at: 
+  updated_at: 
+- name: comments_two
+  display_name: Comments
+  data_type: Text
+  display_order: 4
+  required: false
+  options:
+    :help_text: ''
+    :error_message: ''
+    :default_value: ''
+  type: MeetingSummaryCustomField
+  created_at: 
+  updated_at: 
+- name: reg
+  display_name: ' Are you registered to attend Vision?'
+  data_type: List
+  display_order: 10
+  required: false
+  options:
+    :help_text: Visit the Vision Sharepoint Site for registration costs/approval guidelines
+    :error_message: ''
+    :value_list:
+    - 'Yes'
+    - 'No'
+    :disabled_options: []
+    :default_value: ''
+  type: MeetingCustomField
+  created_at: 
+  updated_at: 
+- name: mana
+  display_name: Manager
+  data_type: Text
+  display_order: 11
+  required: true
+  options:
+    :help_text: ''
+    :error_message: ''
+    :css_class: ''
+    :default_value: ''
+  type: MeetingCustomField
+  created_at: 
+  updated_at: 
+- name: food
+  display_name: Additional Food and Beverage Needs
+  data_type: Text
+  display_order: 8
+  required: false
+  options:
+    :help_text: Standard beverages and snacks will be available alt all times.
+    :error_message: ''
+    :default_value: ''
+  type: MeetingCustomField
+  created_at: 
+  updated_at: 
+- name: av
+  display_name: Audio Visual Needs
+  data_type: Text
+  display_order: 9
+  required: false
+  options:
+    :help_text: Other than power, WiFi and Polycom phone.
+    :error_message: ''
+    :default_value: ''
+  type: MeetingCustomField
+  created_at: 
+  updated_at: 
+- name: rev
+  display_name: Test Field
+  data_type: String
+  display_order: 1
+  required: false
+  options:
+    :help_text: ''
+    :error_message: ''
+    :css_class: ''
+    :default_value: ''
+  type: ExternalMeetingCustomField
+  created_at: 
+  updated_at: 
