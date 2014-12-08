@@ -34,6 +34,11 @@ module Faker
           regions = REGION if regions.empty?
           regions.sample.to_s
         end
+
+        def full_details(options={})
+          email_id = options.has_key?(:domain) ? email.gsub(/@.+/,"@#{options[:domain]}") : email
+          h = { first_name: first_name, last_name: last_name, company: company, job_title: job_title, email: email_id, role: user_role}
+        end
     	end
 	end
 end

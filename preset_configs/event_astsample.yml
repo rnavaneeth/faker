@@ -1,0 +1,265 @@
+---
+Account:
+- start_date: 2014-12-10 00:00:00.000000000Z
+  end_date: 2014-12-14 00:00:00.000000000Z
+  time_zone: PST
+  time_zone_code: !!null 
+  expiry_date: !!null 
+  meeting_loc_req: !!null 
+  time_zone_diff: -8
+  offsite: true
+  meeting_booth: false
+  outlookloc: General Outlook Location
+  reg_user_executive: false
+  report_all: false
+  all_meeting_cal: false
+  show_all_meeting: false
+  entourage: false
+  book_executive: false
+  book_meting: false
+  no_executive_for_booth: true
+  no_executive_for_demo: false
+  events_enabled: false
+  user_can_add_events: false
+  cal_time_zone_desc: Pacific Standard Time
+  special: false
+  offsite_label: !!null 
+  offsite_desc: !!null 
+  do_not_invitee: false
+  extra_field_label: !!null 
+  user_extra_field: false
+  enable_user_mapping: !!null 
+  enable_multiple_booking: !!null 
+  enable_tentative: !!null 
+  timeslot: '15'
+  approval_process: Executive
+  topic_to_executive: false
+  min_meeting_time: '30'
+  mobile_mandatory: false
+  demo_label: Demo
+  booth_label: Booth Tour
+  copy_outlook: false
+  copy_outlook_email: !!null 
+  outlook_attendees: Prepopulate Attendees
+  enable_confirmed: false
+  exe_label_plural: s
+  offiste_label: ''
+  mrnr_label: !!null 
+  outlook_host: true
+  outlook_tentative: false
+  outlook_both: false
+  outlook_cust_info: false
+  enable_checkin: false
+  enable_epm: false
+  ms_email_send: !!null 
+  resources: false
+  dinner: false
+  outlook_org: Requestor
+  disable_email: false
+  cust_email_sp_event: false
+  disable_all_email_sp_event: false
+  copied_primary_key_id: 1
+KeyValue:
+- key: app_dynamics
+  value: "---\n:organization_name:\n  :zorder: 1\n  :label: Account Name\n  :required:
+    true\n  :value_required: true\n:comments:\n  :zorder: 2\n  :label: Comments\n
+    \ :required: true\n  :textarea: true\n:dynamic_field3:\n  :zorder: 3\n  :label:
+    City\n  :required: true\n  :value_required: true\n:dynamic_field4:\n  :zorder:
+    4\n  :label: State\n  :required: true\n  :value_required: true\n:dynamic_field5:\n
+    \ :zorder: 5\n  :label: Is this a Partner Meeting\n  :required: true\n  :value_required:
+    true\n  :options:\n  - Please select\n  - 'Yes'\n  - 'No'\n:dynamic_field6:\n
+    \ :zorder: 6\n  :label: Cisco Unified Communication Partner Level\n  :required:
+    true\n  :value_required: true\n  :options:\n  - Please select\n  - Express Collaboration
+    Specialization\n  - Advanced Collaboration Architecture Specialization\n  - Master
+    Unified Communication (UC)\n  - Not Applicable\n:dynamic_field7:\n  :zorder: 7\n
+    \ :label: Cisco TelePresence ATP Partner Level\n  :required: true\n  :value_required:
+    true\n  :options:\n  - Please select\n  - Express\n  - Advanced\n  - Advanced
+    Plus\n  - Master\n  - Not Applicable\n:dynamic_field8:\n  :zorder: 8\n  :label:
+    NDA Signed?\n  :required: true\n  :value_required: true\n  :options:\n  - Please
+    select\n  - 'Yes'\n  - 'No'\n:dynamic_field9:\n  :zorder: 9\n  :label: Primary
+    Solution of Interest\n  :required: true\n  :value_required: true\n  :options:\n
+    \ - Please select\n  - New Video endpoints (Room and/or Desktop)\n  - Jabber /
+    Jabber Guest / CafeX\n  - Collaboration Meeting Room - CMR (on prem and cloud)\n
+    \ - Pervasive video deployments\n  - Call Control - CUCM, VCS, BE6K, Collaboration
+    Edge\n  - Video Infrastructure - MCU’s, TMS, Conductor, etc.\n:dynamic_field10:\n
+    \ :zorder: 10\n  :label: Secondary Solution of Interest\n  :required: true\n  :options:\n
+    \ - Please select\n  - New Video endpoints (Room and/or Desktop)\n  - Jabber /
+    Jabber Guest / CafeX\n  - Collaboration Meeting Room - CMR (on prem and cloud)\n
+    \ - Pervasive video deployments\n  - Call Control - CUCM, VCS, BE6K, Collaboration
+    Edge\n  - Video Infrastructure - MCU’s, TMS, Conductor, etc.\n:dynamic_field11:\n
+    \ :zorder: 11\n  :label: Meeting Objectives\n  :required: true\n  :textarea: true\n
+    \ :value_required: true\n:dynamic_field12:\n  :zorder: 12\n  :label: Customer
+    Hot Buttons\n  :required: true\n:dynamic_field13:\n  :zorder: 13\n  :label: Potential
+    Revenue\n  :required: true\n  :value_required: true\n  :options:\n  - Please select\n
+    \ - $10,000 - $49,999\n  - $50,000 - $99,999\n  - $100,000 - $199,999\n  - $200,000
+    - $499,999\n  - $500,000 - $999,999\n  - $1,000,000+\n  - Unknown\n  - No Budget\n
+    \ - Not Applicable\n:dynamic_field14:\n  :zorder: 14\n  :label: Which theater
+    do you represent?\n  :required: true\n  :value_required: true\n  :options:\n  -
+    Please select\n  - US/CANADA\n  - EMEAR\n  - Asia/Pac\n"
+  copied_primary_key_id: 1
+- key: enable_session
+  value: 'true'
+  copied_primary_key_id: 2
+- key: ps_email_subject_1
+  value: sub1
+  copied_primary_key_id: 3
+- key: ps_email_content1_1
+  value: cont1
+  copied_primary_key_id: 4
+- key: ps_email_disable_rsvp_1
+  value: 'false'
+  copied_primary_key_id: 5
+- key: ps_email_content2_1
+  value: cont2
+  copied_primary_key_id: 6
+- key: session_label
+  value: Session
+  copied_primary_key_id: 7
+- key: session_help_text
+  value: session
+  copied_primary_key_id: 8
+- key: ps_email_subject_2
+  value: sub2
+  copied_primary_key_id: 9
+- key: ps_email_content1_2
+  value: cont2
+  copied_primary_key_id: 10
+- key: ps_email_disable_rsvp_2
+  value: 'false'
+  copied_primary_key_id: 11
+- key: ps_email_content2_2
+  value: ciobt3
+  copied_primary_key_id: 12
+- key: ps_email_subject_3
+  value: sub1
+  copied_primary_key_id: 13
+- key: ps_email_content1_3
+  value: cont1
+  copied_primary_key_id: 14
+- key: ps_email_disable_rsvp_3
+  value: 'false'
+  copied_primary_key_id: 15
+- key: ps_email_content2_3
+  value: cont2
+  copied_primary_key_id: 16
+MailSetting: []
+MeetingRoomType:
+- name: Admin
+  duration: '60'
+  enable_general: false
+  enable_subtype: !!null 
+  accounts: !!null 
+  copied_primary_key_id: 1
+- name: General
+  duration: '30'
+  enable_general: false
+  enable_subtype: !!null 
+  accounts: !!null 
+  copied_primary_key_id: 2
+MeetingTypeMap:
+- name: Customer
+  meeting_room_type_id: 2
+  copied_primary_key_id: 1
+DefaultTime:
+- start_time: 2014-12-10 09:00:00.000000000Z
+  end_time: 2014-12-10 17:00:00.000000000Z
+  copied_primary_key_id: 1
+- start_time: 2014-12-11 09:00:00.000000000Z
+  end_time: 2014-12-11 17:00:00.000000000Z
+  copied_primary_key_id: 2
+- start_time: 2014-12-12 09:00:00.000000000Z
+  end_time: 2014-12-12 17:00:00.000000000Z
+  copied_primary_key_id: 3
+- start_time: 2014-12-13 09:00:00.000000000Z
+  end_time: 2014-12-13 17:00:00.000000000Z
+  copied_primary_key_id: 4
+- start_time: 2014-12-14 09:00:00.000000000Z
+  end_time: 2014-12-14 17:00:00.000000000Z
+  copied_primary_key_id: 5
+EventDefaultTime:
+- start_time: 2014-12-10 09:00:00.000000000Z
+  end_time: 2014-12-10 17:00:00.000000000Z
+  copied_primary_key_id: 1
+- start_time: 2014-12-11 09:00:00.000000000Z
+  end_time: 2014-12-11 17:00:00.000000000Z
+  copied_primary_key_id: 2
+- start_time: 2014-12-12 09:00:00.000000000Z
+  end_time: 2014-12-12 17:00:00.000000000Z
+  copied_primary_key_id: 3
+- start_time: 2014-12-13 09:00:00.000000000Z
+  end_time: 2014-12-13 17:00:00.000000000Z
+  copied_primary_key_id: 4
+- start_time: 2014-12-14 09:00:00.000000000Z
+  end_time: 2014-12-14 17:00:00.000000000Z
+  copied_primary_key_id: 5
+RoomDefaultTime:
+- start_time: 2014-12-10 09:00:00.000000000Z
+  end_time: 2014-12-10 17:00:00.000000000Z
+  copied_primary_key_id: 1
+- start_time: 2014-12-11 09:00:00.000000000Z
+  end_time: 2014-12-11 17:00:00.000000000Z
+  copied_primary_key_id: 2
+- start_time: 2014-12-12 09:00:00.000000000Z
+  end_time: 2014-12-12 17:00:00.000000000Z
+  copied_primary_key_id: 3
+- start_time: 2014-12-13 09:00:00.000000000Z
+  end_time: 2014-12-13 17:00:00.000000000Z
+  copied_primary_key_id: 4
+- start_time: 2014-12-14 09:00:00.000000000Z
+  end_time: 2014-12-14 17:00:00.000000000Z
+  copied_primary_key_id: 5
+SessionInformation:
+- label: session_1
+  description: session
+  block_company: false
+  track_type: Session
+  copied_primary_key_id: 1
+- label: session_2
+  description: session
+  block_company: false
+  track_type: Session
+  copied_primary_key_id: 2
+- label: group_meeting
+  description: gm
+  block_company: false
+  track_type: Group Meeting
+  copied_primary_key_id: 3
+PsTopic:
+- topic: topic_1
+  duration: '20'
+  abstract: wd
+  csvid: !!null 
+  session_information_id: 1
+  copied_primary_key_id: 1
+- topic: topic_2
+  duration: '15'
+  abstract: topic_2
+  csvid: !!null 
+  session_information_id: 2
+  copied_primary_key_id: 2
+- topic: group_1
+  duration: '15'
+  abstract: group_1
+  csvid: !!null 
+  session_information_id: 3
+  copied_primary_key_id: 3
+PsSession:
+- start_time: 2014-12-13 11:00:00.000000000Z
+  max: 3
+  ps_topic_id: 2
+  session_information_id: 2
+  location: ''
+  copied_primary_key_id: 2
+- start_time: 2014-12-12 11:00:00.000000000Z
+  max: 3
+  ps_topic_id: 1
+  session_information_id: 1
+  location: ''
+  copied_primary_key_id: 4
+- start_time: 2014-12-13 11:01:00.000000000Z
+  max: 3
+  ps_topic_id: 3
+  session_information_id: 3
+  location: ''
+  copied_primary_key_id: 6
+DinnerInformation: []

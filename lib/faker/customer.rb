@@ -30,6 +30,12 @@ module Faker
           def country
             Address.country
           end
+
+          def full_details(options={})
+            email_id = options.has_key?(:domain) ? email.gsub(/@.+/,"@#{options[:domain]}") : email
+            h = { first_name: first_name, last_name: last_name, company: company, job_title: job_title, 
+                  email: email_id, mobile_number: mobile_number, country: country}
+          end
   
     	end
 	end
