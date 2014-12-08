@@ -35,9 +35,14 @@ module Faker
           regions.sample.to_s
         end
 
+        def contact_number
+          PhoneNumber.cell_phone
+        end
+
         def full_details(options={})
           email_id = options.has_key?(:domain) ? email.gsub(/@.+/,"@#{options[:domain]}") : email
-          h = { first_name: first_name, last_name: last_name, company: company, job_title: job_title, email: email_id, role: user_role}
+          h = { first_name: first_name, last_name: last_name, company: company, contact_number: contact_number,
+            job_title: job_title, email: email_id, role: user_role}
         end
     	end
 	end

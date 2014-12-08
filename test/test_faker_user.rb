@@ -36,12 +36,12 @@ class TestFakeUser < Test::Unit::TestCase
 
   def test_full_details_with_params
     hash = @tester.full_details(domain: 'company.com')
-    assert_equal hash.keys, [:first_name,:last_name,:company,:job_title,:email,:role]
+    assert_equal hash.keys, [:first_name,:last_name,:company,:contact_number,:job_title,:email,:role]
     assert hash[:email].match(/.+@company.com/)
   end
 
   def test_full_details_with_no_params
     hash = @tester.full_details
-    assert_equal hash.keys, [:first_name,:last_name,:company,:job_title,:email,:role]
+    assert_equal hash.keys, [:first_name,:last_name,:company,:contact_number,:job_title,:email,:role]
   end
 end
