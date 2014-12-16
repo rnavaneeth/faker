@@ -8,6 +8,13 @@ for the creation of this gem), having real-looking test data, and having your
 database populated with more than one or two records while you're doing
 development.
 
+This Faker fork has specific additions to the Faker library,namely
+* Meeting
+* Customer
+* User
+
+See Usage for details
+
 Installing
 ----------
 ```bash
@@ -381,6 +388,39 @@ en-au-ocker:
 
 ```
 
+### Faker::Meeting
+---------------------
+``` ruby
+Faker::Meeting.company #=> "Braun and Sons"
+Faker::Meeting.meeting_type #=> "customer"
+Faker::Meeting.custom_text_fields #=> "voluptas itaque repellendus"
+Faker::Meeting.custom_textarea_fields #=> "Nemo magnam enim amet corrupti voluptatibus. Provident reprehenderit qui ipsa iusto. Delectus occaecati necessitatibus tenetur quia pariatur voluptatem harum."
+```
+
+### Faker::Customer
+-------------------
+``` ruby 
+Faker::Customer.first_name #=> "Stanley"
+Faker::Customer.last_name #=> "Hammes"
+Faker::Customer.mobile_number #=> "1-755-864-2247"
+Faker::Customer.job_title #=> "Forward Quality Executive"
+Faker::Customer.country #=> "Swaziland"
+Faker::Customer.company #=> "Gottlieb-Walker"
+Faker::Customer.email #=> "esmeralda@jifflenow.net"
+Faker::Customer.full_details #=> {:first_name=>"Alfonzo", :last_name=>"Hyatt", :company=>"Kuhlman and Sons", :job_title=>"Legacy Applications Engineer", :email=>"arjun@jifflenow.net", :mobile_number=>"(882) 794-5664", :country=>"Poland"}
+Faker::Customer.full_details(domain: 'company.com') #=> {:first_name=>"Eliane", :last_name=>"Stoltenberg", :company=>"Jacobs and Sons", :job_title=>"Global Quality Liason", :email=>"jeanne_armstrong@company.com", :mobile_number=>"672-255-6207", :country=>"Marshall Islands"}
+```
+
+### Faker::User
+----------------
+``` ruby
+Faker::User.last_name #=> "Graham"
+Faker::User.first_name #=> "Rylan"
+Faker::User.contact_number #=> "(550) 719-1809"
+Faker::User.company #=> "Bruen-Kozey"
+Faker::User.full_details #=> {:first_name=>"Salvatore", :last_name=>"Christiansen", :company=>"Harris-Medhurst", :contact_number=>"330.395.6630", :job_title=>"Dynamic Research Assistant", :email=>"peyton@jifflenow.net", :role=>"meeting_manager"}
+Faker::User.full_details(domain: 'test.com') #=> {:first_name=>"Enid", :last_name=>"Breitenberg", :company=>"Schaefer Inc", :contact_number=>"(946) 855-8494", :job_title=>"Central Paradigm Orchestrator", :email=>"jett.stamm@test.com", :role=>"account_manager"}
+```
 Contributing
 ------------
 See [CONTRIBUTING.md](https://github.com/stympy/faker/blob/master/CONTRIBUTING.md).
