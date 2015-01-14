@@ -1,6 +1,6 @@
 module Faker
   class Event < Base
-	flexible :customer
+	flexible :event
 	class << self
 	  def name
 	  	name = "#{Hacker.abbreviation} #{Time.year(:upcoming)}"

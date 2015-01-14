@@ -421,6 +421,17 @@ Faker::User.company #=> "Bruen-Kozey"
 Faker::User.full_details #=> {:first_name=>"Salvatore", :last_name=>"Christiansen", :company=>"Harris-Medhurst", :contact_number=>"330.395.6630", :job_title=>"Dynamic Research Assistant", :email=>"peyton@jifflenow.net", :role=>"meeting_manager"}
 Faker::User.full_details(domain: 'test.com') #=> {:first_name=>"Enid", :last_name=>"Breitenberg", :company=>"Schaefer Inc", :contact_number=>"(946) 855-8494", :job_title=>"Central Paradigm Orchestrator", :email=>"jett.stamm@test.com", :role=>"account_manager"}
 ```
+
+### Faker::Event
+----------------
+``` ruby
+Faker::Event.name #=> "ADP 2079"
+Faker::Event.location #=> "New Wilfordville"
+Faker::Event.start_date #=> 2014-09-09 01:20:14 +0530
+Faker::Event.end_date #=> #<DateTime: 2014-09-14T00:00:00+00:00 ((2456915j,0s,0n),+0s,2299161j)>
+Faker::Event.support_email #=> "reagan@jifflenow.net"
+Faker::Event.full_details #=> {:name=>"USB 2082", :support_email=>"vincenza_mcdermott@jifflenow.net", :location=>"Eladioton", :start_date=>2014-11-22 21:42:58 +0530, :end_date=>#<DateTime: 2014-11-27T00:00:00+00:00 ((2456989j,0s,0n),+0s,2299161j)>}
+```
 Contributing
 ------------
 See [CONTRIBUTING.md](https://github.com/stympy/faker/blob/master/CONTRIBUTING.md).
