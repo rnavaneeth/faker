@@ -16,19 +16,21 @@ module Faker
 
 	  def start_date(option=nil)
 	  	days_differential = (50..300).to_a.sample
+	  	event_range = (2..5).to_a.sample
+	  	start_date = nil
 	    if option.eql? :upcoming
-	  	  Time.forward(days_differential)
+	  	  start_date = Time.forward(days_differential)
 	    elsif option.eql? :in_the_past
-	      Time.backward(days_differential)
+	      start_date = Time.backward(days_differential)
 	    else
-	      Time.between(Time.forward(200),Time.backward(200))	
+	      start_date = Time.between(Time.forward(200),Time.backward(200))	
 	  	end
+	  	@end_date = (start_date.to_date+event_range).to_s
+	  	start_date
 	  end
 
 	  def end_date
-	  	event_range = (1..5).to_a.sample
-	  	end_date = (self.start_date+event_range).to_s
-	  	DateTime.parse(end_date)
+	  	DateTime.parse(@end_date)
 	  end
 
       def full_details(option=nil)

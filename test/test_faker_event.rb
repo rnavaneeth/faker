@@ -27,6 +27,7 @@ class TestFakerEvent < Test::Unit::TestCase
 
   def test_event_end_date_to_be_after_start_date
     hash = @tester.full_details(:upcoming)
-    assert hash[:end_date].to_date < hash[:start_date].to_date
+    range_end = DateTime.parse((hash[:start_date].to_date+6).to_s)
+    assert hash[:end_date].to_date < range_end
   end
 end
