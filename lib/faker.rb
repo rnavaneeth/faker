@@ -176,6 +176,7 @@ require 'faker/app'
 require 'faker/meeting'
 require 'faker/customer'
 require 'faker/user'
+require 'faker/event'
 
 require 'extensions/array'
 require 'extensions/symbol'

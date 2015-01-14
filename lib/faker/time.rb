@@ -23,6 +23,16 @@ module Faker
         super(days).to_time + random_time(period)
       end
 
+      def year(option=nil)
+        if option.eql?(:upcoming)
+          (2015..2100).to_a.sample
+        elsif option.eql?(:past)
+          (1900..2014).to_a.sample
+        else
+          (1900..2100).to_a.sample
+        end
+      end
+
       private
 
       def random_time(period)

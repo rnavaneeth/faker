@@ -71,4 +71,8 @@ class TestFakerTime < Test::Unit::TestCase
       end
     end
   end
+
+  def test_year
+    @tester.year(:upcoming)
+  end
 end

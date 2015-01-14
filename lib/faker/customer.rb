@@ -4,7 +4,7 @@ module Faker
 
     	class << self
     	  def first_name
-            Name.first_name
+          Name.first_name
     	  end
 	
     	  def last_name
