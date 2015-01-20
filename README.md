@@ -66,7 +66,7 @@ Faker::Event.location #=> "New Wilfordville"
 Faker::Event.start_date #=> 2014-09-09 01:20:14 +0530
 Faker::Event.end_date #=> #<DateTime: 2014-09-14T00:00:00+00:00 ((2456915j,0s,0n),+0s,2299161j)>
 Faker::Event.support_email #=> "reagan@jifflenow.net"
-Faker::Event.full_details #=> {:name=>"USB 2082", :support_email=>"vincenza_mcdermott@jifflenow.net", :location=>"Eladioton", :start_date=>2014-11-22 21:42:58 +0530, :end_date=>#<DateTime: 2014-11-27T00:00:00+00:00 ((2456989j,0s,0n),+0s,2299161j)>}
+Faker::Event.full_details # => {:name=>"PNG 2082", :support_email=>"camden@jifflenow.net", :location=>"Judgeport", :time_zone=>"New Delhi", :start_date=>2015-03-23 08:37:48 +0530, :end_date=>2015-03-28 05:30:00 +0530}
 ```
 
 -----
