@@ -15,14 +15,12 @@ class TestFakerMeeting < Test::Unit::TestCase
     assert @meeting_types.include?@tester.meeting_type
   end
   
- def test_custom_textarea_fields
+  def test_custom_textarea_fields
     cf1 = @tester.custom_textarea_fields
     cf2 = @tester.custom_textarea_fields
 
     assert cf1.match(/(\w+\.? ?){3}/)
     assert cf2.match(/(\w+\.? ?){3}/)
-
-
   end
 
   def test_custom_text_fields

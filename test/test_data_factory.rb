@@ -2,8 +2,8 @@ require File.dirname(__FILE__) + '/test_helper.rb'
 
 class TestDataFactory < Test::Unit::TestCase
 	include DataFactory
-	def setup
-     #@tester = DataFactory.get_custom_fields
+    def setup
+        #@tester = DataFactory.get_custom_fields
     end
 
     def test_data_factory_loads_mst_class_methods

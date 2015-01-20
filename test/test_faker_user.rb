@@ -20,7 +20,7 @@ class TestFakeUser < Test::Unit::TestCase
     assert @tester.company.match(/[A-Z][a-z]+\.?/)
   end
 
-   def test_user_role
+  def test_user_role
    	role1 = @tester.user_role
    	role2 = @tester.user_role
     assert @user_roles.include?(role1)

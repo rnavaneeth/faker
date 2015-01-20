@@ -8,12 +8,12 @@ class TestFakerEvent < Test::Unit::TestCase
   
   def test_full_details_with_no_params
      hash = @tester.full_details
-     assert_equal hash.keys, [:name,:support_email,:location,:start_date,:end_date]
+     assert_equal hash.keys, [:name,:support_email,:location,:time_zone,:start_date,:end_date]
   end
 
   def test_full_details_with_event_type
-    hash = @tester.full_details(:upcoming)
-    assert_equal hash.keys, [:name,:support_email,:location,:start_date,:end_date]
+    hash = @tester.full_details(:with_date => :upcoming)
+    assert_equal hash.keys, [:name,:support_email,:location,:time_zone,:start_date,:end_date]
     hash[:start_date].to_date > Date.today
   end
 
@@ -26,8 +26,14 @@ class TestFakerEvent < Test::Unit::TestCase
   end
 
   def test_event_end_date_to_be_after_start_date
-    hash = @tester.full_details(:upcoming)
+    hash = @tester.full_details(:with_date => :upcoming)
     range_end = DateTime.parse((hash[:start_date].to_date+6).to_s)
     assert hash[:end_date].to_date < range_end
+  end
+
+  def test_full_details_with_event_type_and_us_timezone
+    hash = @tester.full_details(:with_date => :upcoming,:with_time_zone => :us_time_zone)
+    puts hash
+    assert hash[:start_date].to_date > Date.today
   end
 end

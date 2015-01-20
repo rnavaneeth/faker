@@ -8,7 +8,6 @@ end
 
 require 'i18n'
 require 'set' # Fixes a bug in i18n 0.6.11
-defined? I18n.enforce_available_locales = true
 I18n.load_path += Dir[File.join(mydir, 'locales', '*.yml')]
 
 module Faker

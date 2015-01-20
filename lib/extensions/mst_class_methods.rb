@@ -6,18 +6,23 @@ module MSTClassMethods
   def get_custom_fields
   	self::CustomFields.select{|x| x['type']=='MeetingCustomField'}
   end
+
   def get_external_custom_fields
   	self::CustomFields.select{ |x| x['type']=='ExternalMeetingCustomField'}
   end
+
   def get_quick_meeting_custom_fields
   	self::CustomFields.select{ |x| x['type']=='QuickMeetingMeetingCustomField'}
   end
+
   def get_customer_custom_fields
   	self::CustomFields.select{ |x| x['type']=='CustomerCustomField'}
   end
+
   def get_user_custom_fields
   	self::CustomFields.select{ |x| x['type']=='UserCustomField'}
   end
+
   def default_meeting_information
   	meeting_fields = get_custom_fields
   	meeting_info = Hash.new
@@ -35,6 +40,7 @@ module MSTClassMethods
   	meeting_info.merge!("Host Attendance" => "Yes")
   	meeting_info
   end
+
   def default_external_meeting_information
   	meeting_fields = get_external_custom_fields
   	meeting_info =
@@ -64,7 +70,6 @@ module MSTClassMethods
   	meeting_info
   end
   def default_customer_information
-  	customer_fields = get_customer_custom_fields
   	customer_info =
   	{ 	'Customer First Name' => Faker::Customer.first_name,
   		'Customer Last Name' => Faker::Customer.last_name,
@@ -77,7 +82,6 @@ module MSTClassMethods
   	customer_info
   end
   def default_user_information
-  	user_fields = get_user_custom_fields
   	user_info =
   	{ 	'User First Name' => Faker::User.first_name,
   		'User Last Name' => Faker::User.last_name,

@@ -41,7 +41,7 @@ module Faker
 
         def full_details(options={})
           email_id = options.has_key?(:domain) ? email.gsub(/@.+/,"@#{options[:domain]}") : email
-          h = { first_name: first_name, last_name: last_name, company: company, contact_number: contact_number,
+          { first_name: first_name, last_name: last_name, company: company, contact_number: contact_number,
             job_title: job_title, email: email_id, role: user_role}
         end
     	end

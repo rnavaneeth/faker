@@ -75,4 +75,8 @@ class TestFakerTime < Test::Unit::TestCase
   def test_year
     @tester.year(:upcoming)
   end
+
+  def test_timezone_should_return_valid_us_time_zone
+    assert @tester.time_zone(:us_time_zone).match(/[A-Z][a-z]+\.?/)
+  end
 end

@@ -22,7 +22,7 @@ class TestFakerCustomer < Test::Unit::TestCase
     assert @tester.job_title.match(/[A-Z][a-z]+\.?/)
   end
 
-   def test_email
+  def test_email
     assert @tester.email.match(/.+@jifflenow.net/)
   end
 
