@@ -1188,3 +1188,9 @@ CustomField:
   type: ExternalMeetingCustomField
   created_at: 
   updated_at: 
+configurations:
+    internal_registration_enabled: 'yes'
+    internal_allowed_domains: 'sample.com^testme.com^myownemail.com'
+    external_registration_enabled: 'yes'
+    external_allowed_domains: 'bluesky.com^google.com'
+    need_to_approve_external_user: 'yes'

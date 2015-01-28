@@ -23,7 +23,7 @@ class TestFakerCustomer < Test::Unit::TestCase
   end
 
   def test_email
-    assert @tester.email.match(/.+@jifflenow.net/)
+    assert @tester.email.match(/.+@(sample|testme|myownemail)\.com/)
   end
 
   def test_country

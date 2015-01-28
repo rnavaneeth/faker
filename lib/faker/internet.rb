@@ -11,7 +11,8 @@ module Faker
       end
 
       def safe_email(name = nil)
-        [ user_name(name), 'jifflenow.net'].join('@')
+        domain_name = DataFactory::ConfigFile['configurations']['internal_allowed_domains'].split('^').sample
+        [ user_name(name), domain_name].join('@')
       end
 
       def user_name(specifier = nil, separators = %w(. _))
