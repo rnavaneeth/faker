@@ -1,12 +1,7 @@
 require 'yaml'
 module DataFactory
   module ConfigurationBase
-    @app_path = ''
     def load
-      @app_path = File.dirname(__FILE__) if @app_path ==''
-      @event_name = ENV['EVENT'] || "event:sample"
-      @config = {}
-      puts "I am here: #{@app_path}"
       unless File.exists?(File.join(@app_path,'../../preset_configs/',"#{conf_file}"))
         puts("[DataFactory] Warning - Could not find #{conf_file} in preset_configs folder. Either place this or initialize")
         return @config
@@ -52,11 +47,19 @@ module DataFactory
 
   module Configuration
     extend ConfigurationBase
+    def self.set_app_path(path)
+        @app_path= path
+        puts "[DataFactory] Reset App Path to #{@app_path}"
+    end
+    @event_name = ENV['EVENT'] || "event:sample"
+    @config = {}
+    @app_path = File.dirname(__FILE__)
+    puts "[DataFactory] Initializing Configuration with Path #{@app_path}"
 
     private
 
      def self.conf_file
-       conf_file = "#{@event_name.gsub(':','_')}.yml"
+       conf_file = "#{@event_name.gsub(':','_')}.yml" || 'event_sample.yml'
      end
   end
 end
