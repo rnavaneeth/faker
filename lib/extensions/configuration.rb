@@ -1,8 +1,9 @@
 require 'yaml'
 module DataFactory
   module ConfigurationBase
+    @app_path = ''
     def load
-      @app_path = ENV["APP_PATH"] || File.dirname(__FILE__)
+      @app_path = File.dirname(__FILE__) if @app_path ==''
       @event_name = ENV['EVENT'] || "event:sample"
       @config = {}
       puts "I am here: #{@app_path}"
