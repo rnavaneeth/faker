@@ -11,7 +11,6 @@ module Faker
       end
 
       def safe_email(name = nil)
-        domain_name = DataFactory::ConfigFile['configurations']['internal_allowed_domains'].split('^').sample
         [ user_name(name), domain_name].join('@')
       end
 
